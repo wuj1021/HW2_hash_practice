@@ -1,5 +1,5 @@
 # HW2_hash_practice
-s = open("C:\Users\WUJ\Downloads\hw2_data.txt", "r")
+s = open("hw2_data.txt", "r")
 str = s.read()
 str2 = str.split(" ")
 dict1 = {}
