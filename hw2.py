@@ -6,7 +6,6 @@ with open('hw2_data.txt', 'r') as file:
     for line in file:
         # 將每行轉為小寫並移除換行符號
         words = line.lower().strip().split()
-        # 遍歷每個單字
         for word in words:
             # 若字典中沒有該單字，則新增一個key-value pair，value為1
             if word not in word_count:
